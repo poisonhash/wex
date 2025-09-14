@@ -1,4 +1,3 @@
-# wex
 
 Wex is built for performance and compatibility.
 
