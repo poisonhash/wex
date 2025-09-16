@@ -10,7 +10,7 @@ local root = character:WaitForChild("HumanoidRootPart")
 local ez = {}
 local currenttween;
 
-function ez:tweento(basepos: Vector3, xoffset: number, yoffset: number, zoffset: number, speed: number)
+function ez:tweento(basepos, xoffset: number, yoffset: number, zoffset: number, speed: number)
     if basepos then
         if currenttween then
             currenttween:Cancel()
